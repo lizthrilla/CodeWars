@@ -1,0 +1,6 @@
+//Simple, remove the spaces from the string, then return the resultant string.
+//before coffee morning wake up kata
+
+const noSpace = (x) =>{
+  return x.replace(/\s+/g, '');
+}
