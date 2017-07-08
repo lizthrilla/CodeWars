@@ -1,0 +1,5 @@
+def bonus_time(salary, bonus)
+ fatcat = bonus == true ? (salary * 10) : (salary)
+ return '$' + fatcat.to_s
+end
+
