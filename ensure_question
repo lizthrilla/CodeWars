@@ -1,0 +1,3 @@
+def ensure_question(s)
+  s.include?('?') ? s : s + '?'
+end
