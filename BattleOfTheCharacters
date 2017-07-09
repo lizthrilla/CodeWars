@@ -1,0 +1,8 @@
+def battle(x, y)
+  new_x = x.split('').map {|ch| ch.ord - 'A'.ord + 1}.reduce(0, :+)
+  new_y = y.split('').map {|ch| ch.ord - 'A'.ord + 1}.reduce(0, :+)
+  
+  new_x > new_y ? x : new_x < new_y ? y : "Tie!"
+end
+
+https://www.codewars.com/kata/595519279be6c575b5000016
