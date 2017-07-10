@@ -1,0 +1,6 @@
+def disemvowel(str)
+  str.delete('aeiouAEIOU')
+end
+
+
+https://www.codewars.com/kata/disemvowel-trolls/train/ruby
